@@ -54,7 +54,7 @@
       <!-- Герой  -->
 
       <section class="hero">
-        <div class="hero_container">
+        <div class="container hero_container">
           <h1 class="hero_header">Эффективные решения для вашего бизнеса</h1>
           <button type="button" class="button">Заказать услугу</button>
         </div>
@@ -65,8 +65,8 @@
       <section class="features">
         <div class="container">
         <h2 class="visually-hidden">Наши преимущества</h2>
-        <ul class="list">
-          <li>
+        <ul class="list feautures_list">
+          <li class="feautures_item">
             <h3 class="header3">Внимание к деталям</h3>
             <p class="features_desc">
               Идейные соображения, а также начало повседневной работы по
@@ -101,9 +101,10 @@
       <!-- Услуги  -->
 
       <section class="services">
+        <div class="container">
         <h2 class="header2">Чем мы занимаемся</h2>
-        <ul class="list">
-          <li>
+        <ul class="list services_list">
+          <li class="services_item">
             <img
               src="./images/service01.jpg"
               alt="Услуга 1"
@@ -111,7 +112,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="services_item">
             <img
               src="./images/service02.jpg"
               alt="Услуга 2"
@@ -119,7 +120,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="services_item">
             <img
               src="./images/service03.jpg"
               alt="Услуга 3"
@@ -128,14 +129,16 @@
             />
           </li>
         </ul>
+        </div>
       </section>
 
       <!-- Команда  -->
 
       <section class="team">
+        <div class="container team_section">
         <h2 class="header2">Наша команда</h2>
-        <ul class="list">
-          <li>
+        <ul class="list team_list">
+          <li class="team_list_item">
             <img
               src="./images/teamate01.jpg"
               alt="Teamate 1"
@@ -145,7 +148,7 @@
             <h3 class="team_header">Игорь Демьяненко</h3>
             <p class="team_position">Product Designer</p>
           </li>
-          <li>
+          <li class="team_list_item">
             <img
               src="./images/teamate02.jpg"
               alt="Teamate 2"
@@ -155,7 +158,7 @@
             <h3 class="team_header">Ольга Репина</h3>
             <p class="team_position">Frontend Developer</p>
           </li>
-          <li>
+          <li class="team_list_item">
             <img
               src="./images/teamate03.jpg"
               alt="Teamate 3"
@@ -165,7 +168,7 @@
             <h3 class="team_header">Николай Тарасов</h3>
             <p class="team_position">Marketing</p>
           </li>
-          <li>
+          <li class="team_list_item">
             <img
               src="./images/teamate04.jpg"
               alt="Teamate 4"
@@ -176,22 +179,25 @@
             <p class="team_position">UI Designer</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
 
     <footer class="site_footer">
+      <div class="container">
       <a class="logo" lang="en" href="./index.html"
         ><span class="blue_logo">Web</span>Studio</a
       >
       <address><p class="address">г. Киев, пр-т Леси Украинки, 26</p></address>
-      <ul class="site_nav list">
-        <li>
+      <ul class="site_nav list footer_contacts">
+        <li class="footer_contacts_item">
           <a href="mailto:info@devstudio.com" class="link"
             >info@devstudio.com</a
           >
         </li>
         <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
       </ul>
+      </div>
     </footer>
   </body>
 </html>

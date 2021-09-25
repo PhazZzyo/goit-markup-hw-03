@@ -28,6 +28,7 @@ img {
   font-family: roboto;
   font-size: 14px;
   font-weight: 400;
+  max-width: 1600px;
 }
 
 .list {
@@ -46,8 +47,8 @@ img {
 }
 
 .container {
-  width: 1200px;
   margin: 0 auto;
+  width: 1200px;
 }
 
 /* header */
@@ -134,6 +135,7 @@ img {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
 
 /* hero section */
@@ -168,8 +170,22 @@ img {
 
     /* features section*/
 
-/* .features {
-} */
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  min-width: 1170px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.feautures_list {
+display: flex;
+margin-left: -27px;
+}
+
+.feautures_item {
+flex-basis: calc(100% / 4 -30px);
+}
 
 .header3 {
   color: var(--black);
@@ -189,11 +205,42 @@ img {
   letter-spacing: 0.03em;
 }
 
+/* services */
+
+.services {
+}
+
+.services_list {
+  display: flex;
+  margin-bottom: 94px;
+}
+
+.services_item:not(:last-child) {
+  margin-right: 30px;
+}
+
 /* team section */
 
 .team {
   color: var(--grey);
   font-size: 16px;
+}
+
+.team_section {
+margin-bottom: 94px;
+}
+
+.team_list {
+  display: flex;
+
+}
+
+.team_list_item {
+margin-right: 30px;
+width: calc((100% - 120px) / 4);
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+
 }
 
 .team_header {
@@ -226,8 +273,19 @@ img {
 /* footer section */
 
 .site_footer {
+  display: block;
   background-color: var(--dark_bg);
   color: var(--white);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer_contacts {
+  display: block;
+}
+
+.footer_contacts_item {
+  margin-bottom: 9px;
 }
 
 .site_footer .logo {
@@ -240,6 +298,7 @@ img {
 }
 
 .address {
+  margin-bottom: 9px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -248,6 +307,20 @@ img {
 }
 
 /* portfolio page */
+
+.portfolio {
+margin-top: 94px;
+}
+
+.port_buttons {
+  display: flex;
+  align-content: center;
+  margin-bottom: 50px;
+}
+
+ .port_buttons_item:not(:last-child) {
+margin-right: 8px;
+ }
 
 .port_button {
   color: var(--dark_text);
@@ -260,11 +333,29 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+  border: 0px;
+  border-radius: 4px;
+  padding: 6px 22px 6px 22px;
 }
 
 .port_button.current {
   color: var(--white);
   background-color: var(--blue);
+}
+
+.gal_list {
+display: flex;
+flex-wrap: wrap;
+}
+
+.gal_list_item {
+margin-right: 30px;
+/* width: calc((100% - 90px) / 3); */
+/* flex-basis: calc((100% - 90px) / 3); */
+}
+
+.gal_list_text {
+  margin: 20px 24px;
 }
 
 .gal_header {
