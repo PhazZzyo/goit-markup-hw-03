@@ -116,14 +116,13 @@ img {
   color: var(--blue);
 }
 
-.header1 {
+.hero_header {
   text-transform: uppercase;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;  
 }
 
@@ -142,15 +141,14 @@ img {
 .hero {
   background-color: var(--dark_bg);
   color: var(--white);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
 }
 
-.hero_header {
+.hero_container {
   margin: 0 auto;
-  padding-top: 200px;
-  margin-left: 452px;
-  margin-right: 452px;
-  margin-bottom: 30px;
-  min-width: 696px;
+  max-width: 696px;
 }
 
 .button {
@@ -158,8 +156,6 @@ img {
   font-style: normal;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--white);
@@ -170,12 +166,7 @@ img {
   border-width: 0;
 }
 
-.hero_button{
-  padding-bottom: 200px;
-  
-}
-
-/* features section*/
+    /* features section*/
 
 /* .features {
 } */
