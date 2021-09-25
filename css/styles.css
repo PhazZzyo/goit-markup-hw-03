@@ -19,6 +19,8 @@ ul {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* common */
@@ -48,6 +50,8 @@ img {
 
 .container {
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;  
   width: 1200px;
 }
 
@@ -172,7 +176,6 @@ img {
 
 .features {
   padding-top: 94px;
-  padding-bottom: 94px;
   min-width: 1170px;
   text-align: left;
   margin: 0 auto;
@@ -208,11 +211,12 @@ flex-basis: calc(100% / 4 -30px);
 /* services */
 
 .services {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .services_list {
   display: flex;
-  margin-bottom: 94px;
 }
 
 .services_item:not(:last-child) {
@@ -223,7 +227,10 @@ flex-basis: calc(100% / 4 -30px);
 
 .team {
   color: var(--grey);
+  background-color: #F5F4FA;
   font-size: 16px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team_section {
@@ -232,14 +239,13 @@ margin-bottom: 94px;
 
 .team_list {
   display: flex;
-
 }
 
 .team_list_item {
-margin-right: 30px;
-width: calc((100% - 120px) / 4);
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+  margin-right: 30px;
+  width: calc((100% - 120px) / 4);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 
 }
 
@@ -268,6 +274,10 @@ border-radius: 0px 0px 4px 4px;
   color: var(--dark_text);
   text-transform: none;
   font-size: 16px;
+}
+
+.team_text {
+  padding: 30px;
 }
 
 /* footer section */
@@ -351,7 +361,10 @@ margin-left: -30px;
 
 .gal_list_item {
 margin-left: 30px;
+margin-bottom: 30px;
 flex-basis: calc((100% - 90px) / 3);
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
 }
 
 .gal_list_text {
