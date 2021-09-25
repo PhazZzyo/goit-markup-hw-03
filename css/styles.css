@@ -314,7 +314,7 @@ margin-top: 94px;
 
 .port_buttons {
   display: flex;
-  align-content: center;
+  justify-content: center;
   margin-bottom: 50px;
 }
 
@@ -346,12 +346,12 @@ margin-right: 8px;
 .gal_list {
 display: flex;
 flex-wrap: wrap;
+margin-left: -30px;
 }
 
 .gal_list_item {
-margin-right: 30px;
-/* width: calc((100% - 90px) / 3); */
-/* flex-basis: calc((100% - 90px) / 3); */
+margin-left: 30px;
+flex-basis: calc((100% - 90px) / 3);
 }
 
 .gal_list_text {
