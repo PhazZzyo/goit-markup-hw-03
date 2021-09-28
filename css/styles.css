@@ -334,7 +334,8 @@ img {
 /* portfolio page */
 
 .portfolio {
-  margin-top: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .port_buttons {
@@ -372,7 +373,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
-  padding-bottom: 94px;
+  margin-bottom: -30px;
 }
 
 .gal_list_item {
